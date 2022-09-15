@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulaire de contact</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script defer src="./assets/js/app.js" type="module"></script>
 </head>
 <body>
     <div class="container">
@@ -12,34 +14,34 @@
     
     <main>
         <form method="post" class="form" action="">
-            <div class="form__group">
+            <fieldset class="form__group">
                 <div class="form__field">
                     <label for="firstName">First Name</label>
-                    <input type="text" name="firstName" id="firstName" required>
+                    <input type="text" name="firstName" id="firstName" required placeholder="Xavier">
                 </div>
                 <div class="form__field">
                     <label for="lastName">Last Name</label>
                     <input type="text" name="lastName" id="lastName" required>
                 </div>
-            </div>
-            <div class="form__group">
+            </fieldset>
+            <fieldset class="form__group">
                 <div class="form__field">
                     <label for="email">email</label>
                     <input type="email" name="email" id="email" required>
                 </div>
-            </div>
-            <div class="form__group">
+            </fieldset>
+            <fieldset class="form__group">
                 <div class="form__field">
                     <label for="pictures">Pictures</label>
                     <input type="file" name="pictures" id="pictures" multiple>
                 </div>
-            </div>
-            <div class="form__group">
+            </fieldset>
+            <fieldset class="form__group">
                 <div class="form__field">
                     <label for="description">Description</label>
                     <textarea name="description" id="description"></textarea>
                 </div>
-            </div>
+            </fieldset>
         </form>
     </main>
 </div>

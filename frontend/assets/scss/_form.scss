@@ -1,0 +1,26 @@
+.form {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+
+    &__group {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+    }
+
+    &__field {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+
+
+        label {}
+
+        input {
+            border-radius: 5px;
+            padding: 8px;
+        }
+    }
+
+}
